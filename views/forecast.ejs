@@ -1,0 +1,54 @@
+<!-- views/profile.ejs -->
+<!doctype html>
+<html>
+<head>
+    <title>Node Authentication</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+    <style>
+        body        { padding-top:80px; word-wrap:break-word; }
+    </style>
+</head>
+<body style="position: relative;">
+<div class="container">
+    <div class="page-header text-center">
+        <h1><span class="fa fa-anchor"></span> Forecast Page</h1>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+    <div class="row">
+        <!-- LOCAL INFORMATION -->
+        <div class="col-sm-12">
+            <div class="well">
+                <h1>Simple ag-Grid Example</h1>
+
+                
+    <div style="height: 100%; padding-top: 25px; box-sizing: border-box;">
+        <div id="myGrid" style="height: 300px;" class="ag-fresh"></div>
+    </div>
+
+
+    <div style="position: absolute; top: 0px; left: 0px;">
+        <button onclick="onAddRow()">Add Row</button>
+        <button onclick="onInsertRowAt2()">Insert Row @ 2</button>
+        <button onclick="updateItems()">Update First 5</button>
+        <button onclick="onRemoveSelected()">Remove Selected</button>
+        <button onclick="getRowData()">Get Row Data</button>
+        <button onclick="clearData()">Clear Data</button>
+        <button onclick="addItems()">Add Items</button>
+        <button onclick="addItemsAtIndex()">Add Items @ 2</button>
+    </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ag-grid/10.1.0/ag-grid.js"></script>
+    <script src="./javascripts/example2.js"></script>
+</body>
+</html>
